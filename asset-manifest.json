@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1e9e50c5.css",
-    "main.js": "/static/js/main.2faf28cd.js",
+    "main.js": "/static/js/main.23f0d786.js",
     "static/media/gif.webp": "/static/media/gif.ad54a05503103bc6bf10.webp",
     "static/media/gearbest.png": "/static/media/gearbest.3c9d06b312383cc8da31.png",
     "static/media/profile.jpg": "/static/media/profile.f417828c277c0484d8c7.jpg",
@@ -21,10 +21,10 @@
     "static/media/vscode.png": "/static/media/vscode.09a6d2855e2363fca349.png",
     "index.html": "/index.html",
     "main.1e9e50c5.css.map": "/static/css/main.1e9e50c5.css.map",
-    "main.2faf28cd.js.map": "/static/js/main.2faf28cd.js.map"
+    "main.23f0d786.js.map": "/static/js/main.23f0d786.js.map"
   },
   "entrypoints": [
     "static/css/main.1e9e50c5.css",
-    "static/js/main.2faf28cd.js"
+    "static/js/main.23f0d786.js"
   ]
 }
