@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.16f049a0.css",
-    "main.js": "/static/js/main.bb4cdc65.js",
+    "main.js": "/static/js/main.ec8a2f62.js",
     "static/media/gearbest.png": "/static/media/gearbest.3c9d06b312383cc8da31.png",
     "static/media/profile.jpg": "/static/media/profile.f417828c277c0484d8c7.jpg",
     "static/media/menbuy.png": "/static/media/menbuy.527521943916f91b6f84.png",
-    "static/media/gusto.png": "/static/media/gusto.7db10353ba25c1ac6e2d.png",
+    "static/media/gusto.png": "/static/media/gusto.54574da6e004628b2a13.png",
     "static/media/niftypm.png": "/static/media/niftypm.dcb4048ebeb6be3ffc88.png",
     "static/media/react.png": "/static/media/react.dceaa1723fa4b0f19ff5.png",
     "static/media/git.png": "/static/media/git.0d190006bbd50b0681b5.png",
@@ -20,10 +20,10 @@
     "static/media/vscode.png": "/static/media/vscode.09a6d2855e2363fca349.png",
     "index.html": "/index.html",
     "main.16f049a0.css.map": "/static/css/main.16f049a0.css.map",
-    "main.bb4cdc65.js.map": "/static/js/main.bb4cdc65.js.map"
+    "main.ec8a2f62.js.map": "/static/js/main.ec8a2f62.js.map"
   },
   "entrypoints": [
     "static/css/main.16f049a0.css",
-    "static/js/main.bb4cdc65.js"
+    "static/js/main.ec8a2f62.js"
   ]
 }
