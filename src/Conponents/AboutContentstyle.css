@@ -1,0 +1,26 @@
+.parent {
+    width: 100%;
+    height: auto;
+    background-color: #04293a;
+    color: black;
+padding-bottom: 40px;
+}
+
+.content-about {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+    top: 20%;
+    text-align: center;
+}
+
+@media screen and (max-width:900px) {
+    .parent {
+        width: 100%;
+        height: auto;
+        background-color: #04293a;
+        color: black;
+    }
+
+}

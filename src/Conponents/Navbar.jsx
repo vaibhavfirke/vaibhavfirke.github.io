@@ -1,0 +1,77 @@
+import "./Navbarstyle.css";
+import React from "react";
+import { Link} from "react-scroll";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Heading } from "@chakra-ui/react";
+// import { Box, Heading, ListItem, UnorderedList } from "@chakra-ui/react";
+
+const Navbar = () => {
+  const [click, setClick] = React.useState(false);
+  const [color, setColor] = React.useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 100) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+  window.addEventListener("scroll", changeColor);
+
+  const handleClick = () => {
+    setClick(!click);
+  };
+
+  return (
+    <div className={color ? "header header-bg" : "header"}>
+      <Link to="hero" spy={true} smooth={true} offset={50} duration={500}>
+        <Heading
+          bgGradient="linear(to-l, #7928CA, #FF0080)"
+          bgClip="text"
+          fontSize={{ base: "25px", md: "30px", lg: "40px" }}
+          fontWeight="extrabold"
+          cursor="pointer"
+        >
+          Vaibhav
+        </Heading>
+      </Link>
+
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <li>
+          <Link activeclassName="active" onClick={handleClick} to="hero" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
+        </li>
+        <li>
+          {" "}
+          <Link activeclassName="active" onClick={handleClick} to="aboutme" spy={true} smooth={true} offset={-74} duration={500}>AboutMe</Link>
+        </li>
+        <li>
+          {" "}
+          <Link onClick={handleClick} to="skills" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link>
+        </li>
+        <li>
+          {" "}
+          <Link activeclassName="active" onClick={handleClick} to="project" spy={true} smooth={true} offset={-15} duration={500}>Project</Link>
+        </li>
+        <li>
+          {" "}
+          <Link activeclassName="active" onClick={handleClick} to="contact" spy={true} smooth={true} offset={-150} duration={500}>Contact</Link>
+        </li>
+        <li>
+          {" "}
+          <a href="https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link" target="-blank">
+            Resume
+          </a>
+          {/* <Link to="/Resume">Resume</Link> */}
+        </li>
+      </ul>
+
+      <div className="hamburger" onClick={handleClick}>
+        {click ? (
+          <FaTimes size={20} style={{ color: "#fff" }} />
+        ) : (
+          <FaBars size={20} style={{ color: "#fff" }} />
+        )}
+      </div>
+    </div>
+  );
+};
+export default Navbar;

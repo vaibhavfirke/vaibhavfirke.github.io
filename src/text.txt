@@ -1,0 +1,25 @@
+const projects = [
+    {
+      id: 1,
+      image: Gearbest,
+      webname: "GearBest Clone",
+      description:
+        "GearBest is a E-commerce web site where you can Buy any kind of prodict",
+      features:
+        "User can login, signup, cart, product pages, and buy the products ",
+      tech: [Javascrpet, Html, Css],
+      sorce: "https://github.com/vaibhavfirke/-curly-hobbies-5555",
+      live: "https://lucky-basbousa-cb58e5.netlify.app/index.html",
+    },
+    {
+      id: 2,
+      image:Niftypm,
+      webname: "NiftyPm Clone",
+      description:
+        "Niftypm is a project management website where we can manage our project and daily tasks related to the project and assign a task to our teammates. ",
+      features: "User can login, signup, home page and other ",
+      tech: [Javascrpet, Html, Css, Reactimg,Chakraui,Materialui],
+      sorce: "https://github.com/vaibhavfirke/awesome-market-801/tree/main/niftypm",
+      live: "https://vaibhav-firke-makes-great-sites-91714.netlify.app/",
+    },
+  ];
