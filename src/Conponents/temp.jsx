@@ -1,6 +1,7 @@
 import "./Temp.style.css";
+import Cv from "../Assets/cv.pdf";
 import { Box, Heading, Button, Text } from "@chakra-ui/react";
-// import Gif from "../Assets/gif.webp";
+import { FiDownload } from "react-icons/fi";
 function Temp() {
   return (
     <Box className="home" id="hero">
@@ -27,7 +28,6 @@ function Temp() {
           mb="20px"
           // w={{ base: "200px", md: "360px", lg: "490px" }}
           w="70%"
-         
         >
           Solution-driven Web Developer adapts contributing to a highly
           collaborative work environment and finding solutions. Proven
@@ -35,18 +35,21 @@ function Temp() {
           JavaScript | Node.js and React good knowledge of the best practice for
           web design, and user expenses.
         </Text>
+
         <a
           href="https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link"
-          target="-blank"
+          target="_blank"
+          rel="rel"
         >
           <Button bg="yellow" color="black">
             Resume
           </Button>
+        </a> <a href={Cv} download>
+          <Button bg="yellow"><FiDownload style={{color:"black" ,width:"100%"}}/></Button>
+          
         </a>
+      
       </Box>
-      {/* <Box className="img" >
-        <img src={Gif} alt="coding_gif" />
-      </Box> */}
     </Box>
   );
 }

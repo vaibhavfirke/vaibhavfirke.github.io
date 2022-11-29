@@ -7,6 +7,10 @@ import Linkdin from "../Assets/linkdin.png";
 import Hackrank from "../Assets/hackrank.png";
 import Location from "../Assets/location.png";
 import Resume from "../Assets/resume.png";
+import Cv from "../Assets/cv.pdf";
+import { FiDownload } from "react-icons/fi";
+
+
 function Contacts() {
   return (
     <Box className="contact-main" id="contact">
@@ -90,16 +94,19 @@ function Contacts() {
                 alt="Resume"
               />
             </Box>
-            <a href="https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link" target="-blank">
+            <a href="https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link" target="_blank">
               {" "}
               <Button bg="yellow" color="black">
                 Resume
               </Button>
-            </a>
+            </a><a href={Cv} download>
+          <Button bg="yellow"><FiDownload style={{color:"black" ,width:"100%"}}/></Button>
+          
+        </a>
           </Box>
 
           <Box display="flex" gap="20px" justifyContent="center">
-            <a href="https://github.com/vaibhavfirke" target="-blank"><img
+            <a href="https://github.com/vaibhavfirke" target="_blank"><img
               width="40px"
               height="40px"
               border="1px solid red"
@@ -107,7 +114,7 @@ function Contacts() {
               src={Github}
               alt="github"
             /></a>
-            <a href="https://www.linkedin.com/in/vaibhav-firke/" target="-blank"> <img
+            <a href="https://www.linkedin.com/in/vaibhav-firke/" target="_blank"> <img
               width="40px"
               height="40px"
               border="1px solid red"
@@ -115,7 +122,7 @@ function Contacts() {
               src={Linkdin}
               alt="linkdin"
             /></a>
-           <a href="https://www.hackerrank.com/firkevaibhav11" target="-blank"> <img
+           <a href="https://www.hackerrank.com/firkevaibhav11" target="_blank"> <img
               width="40px"
               height="40px"
               border="1px solid red"

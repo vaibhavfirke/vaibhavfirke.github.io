@@ -2,7 +2,9 @@ import "./Navbarstyle.css";
 import React from "react";
 import { Link} from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Heading } from "@chakra-ui/react";
+import { Button, Heading } from "@chakra-ui/react";
+
+
 // import { Box, Heading, ListItem, UnorderedList } from "@chakra-ui/react";
 
 const Navbar = () => {
@@ -57,10 +59,10 @@ const Navbar = () => {
         </li>
         <li>
           {" "}
-          <a href="https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link" target="-blank">
+          <a href="https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link" target="_blank">
             Resume
           </a>
-          {/* <Link to="/Resume">Resume</Link> */}
+          
         </li>
       </ul>
 
