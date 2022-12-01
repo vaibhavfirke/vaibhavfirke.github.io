@@ -7,9 +7,8 @@ import Linkdin from "../Assets/linkdin.png";
 import Hackrank from "../Assets/hackrank.png";
 import Location from "../Assets/location.png";
 import Resume from "../Assets/resume.png";
-import Cv from "../Assets/cv.pdf";
+import Cv from "../Assets/Vaibhav_Firke_Resume.pdf"
 import { FiDownload } from "react-icons/fi";
-
 
 function Contacts() {
   return (
