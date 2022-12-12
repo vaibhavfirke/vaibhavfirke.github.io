@@ -26,8 +26,8 @@ function Temp() {
         <Text
           fontSize={{ base: "14px", md: "15px", lg: "17px" }}
           mb="20px"
-          // w={{ base: "200px", md: "360px", lg: "490px" }}
-          w="70%"
+          
+          w="80%"
         >
           Solution-driven Web Developer adapts contributing to a highly
           collaborative work environment and finding solutions. Proven
