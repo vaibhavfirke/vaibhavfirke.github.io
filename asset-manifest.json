@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc247957.css",
-    "main.js": "/static/js/main.77e62ea0.js",
+    "main.css": "/static/css/main.732b9515.css",
+    "main.js": "/static/js/main.54eb61a6.js",
     "static/media/Vaibhav_Firke_Resume.pdf": "/static/media/Vaibhav_Firke_Resume.f9457799505f0d36fae9.pdf",
     "static/media/gearbest.png": "/static/media/gearbest.3c9d06b312383cc8da31.png",
     "static/media/profile.jpg": "/static/media/profile.f417828c277c0484d8c7.jpg",
@@ -20,11 +20,11 @@
     "static/media/email.png": "/static/media/email.dbf14da7fa77545ea19d.png",
     "static/media/vscode.png": "/static/media/vscode.09a6d2855e2363fca349.png",
     "index.html": "/index.html",
-    "main.fc247957.css.map": "/static/css/main.fc247957.css.map",
-    "main.77e62ea0.js.map": "/static/js/main.77e62ea0.js.map"
+    "main.732b9515.css.map": "/static/css/main.732b9515.css.map",
+    "main.54eb61a6.js.map": "/static/js/main.54eb61a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc247957.css",
-    "static/js/main.77e62ea0.js"
+    "static/css/main.732b9515.css",
+    "static/js/main.54eb61a6.js"
   ]
 }
