@@ -15,8 +15,8 @@ function Git() {
         >
           Days|Code
         </Heading>
-        <Box>
-          <Calender/>
+        <Box width="100%">
+          <Calender />
           <Stats width="100%"/>
         </Box>
         

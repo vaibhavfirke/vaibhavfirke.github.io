@@ -39,11 +39,11 @@ const Navbar = () => {
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link activeclassName="active" onClick={handleClick} to="hero" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
+          <Link activeclassName="active" onClick={handleClick} to="hero" spy={true} smooth={true} offset={-100} duration={50}>Home</Link>
         </li>
         <li>
           {" "}
-          <Link activeclassName="active" onClick={handleClick} to="aboutme" spy={true} smooth={true} offset={-74} duration={500}>AboutMe</Link>
+          <Link activeclassName="active" onClick={handleClick} to="aboutme" spy={true} smooth={true} offset={-74} duration={50}>AboutMe</Link>
         </li>
         <li>
           {" "}
@@ -51,11 +51,11 @@ const Navbar = () => {
         </li>
         <li>
           {" "}
-          <Link activeclassName="active" onClick={handleClick} to="project" spy={true} smooth={true} offset={-15} duration={500}>Project</Link>
+          <Link activeclassName="active" onClick={handleClick} to="project" spy={true} smooth={true} offset={-15} duration={50}>Project</Link>
         </li>
         <li>
           {" "}
-          <Link activeclassName="active" onClick={handleClick} to="contact" spy={true} smooth={true} offset={-150} duration={500}>Contact</Link>
+          <Link activeclassName="active" onClick={handleClick} to="contact" spy={true} smooth={true} offset={-50} duration={50}>Contact</Link>
         </li>
         <li>
           {" "}

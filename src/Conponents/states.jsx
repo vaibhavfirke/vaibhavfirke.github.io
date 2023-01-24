@@ -4,8 +4,8 @@ import "./states.style.css";
 const Stats = () => {
   return (
     // streak
-    <Box className="statesImg" width="100%" height="100%"  >
-      <Box style={{ width: "40%", height:"auto", margin: "auto"}}>
+    <Box className="statesImg" width="100%" height="100%" margin="auto" >
+      <Box style={{ width: "100%", height:"auto", margin: "auto"}}>
         <a href="https://github.com/vaibhavfirke" target="-blank">
           <img
             align="left"
@@ -17,14 +17,17 @@ const Stats = () => {
 
       <Box
         style={{
-          width: "60%",
+          width: "100%",
           height: "300px",
           display: "flex",
           margin: "auto",
           gap:"1%",
-          paddingTop: "25px",
+          paddingTop: "1%",
+          justifyContent:"center"
+         
         }}
       >
+        
         <a href="https://github.com/vaibhavfirke" target="-blank">
           <img
             align="center"
@@ -41,6 +44,7 @@ const Stats = () => {
            
           />
         </a>
+       
       </Box>
     </Box>
   );

@@ -1,8 +1,8 @@
-import "./Temp.style.css";
+import "./Intro.style.css";
 import Cv from "../Assets/Vaibhav_Firke_Resume.pdf"
 import { Box, Heading, Button, Text } from "@chakra-ui/react";
 import { FiDownload } from "react-icons/fi";
-function Temp() {
+function Intro() {
   return (
     <Box className="home" id="hero">
       <Box className="mask">
@@ -53,4 +53,4 @@ function Temp() {
     </Box>
   );
 }
-export default Temp;
+export default Intro;

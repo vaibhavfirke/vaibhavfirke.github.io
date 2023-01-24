@@ -136,8 +136,7 @@ function ProjectContent({ content }) {
                       />
                     );
                   })}
-                  {/* <Image width={{ base: "30px", md: "35px", lg: "50px" }} height={{ base: "30px", md: "35px", lg: "50px" }} src={Html} alt="html" /> */}
-                  {/* <Image width={{ base: "30px", md: "35px", lg: "50px" }} height={{ base: "30px", md: "35px", lg: "50px" }} src={Css} alt="css" /> */}
+                 
                 </Box>
                 <Box
                   margin="auto"

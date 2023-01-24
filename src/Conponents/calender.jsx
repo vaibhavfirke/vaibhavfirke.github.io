@@ -6,27 +6,32 @@ const Calender = () => {
   const selectLastHalfYear = (contributions) => {
     const currentYear = new Date().getFullYear();
     const currentMonth = new Date().getMonth();
-    const shownMonths = 10;
+    const shownMonths = 12;
 
     return contributions.filter((day) => {
       const date = new Date(day.date);
       const monthOfDay = date.getMonth();
-
+      
       return (
         date.getFullYear() === currentYear &&
         monthOfDay > currentMonth - shownMonths &&
         monthOfDay <= currentMonth
-      );
-    });
-  };
+        );
+      });
+    };
+    
+   
+
   return (
-    <Box>
+    <Box width="100%" border={"1px solid red"}>
       <GitHubCalendar
-        style={{width:"100%", margin: "auto" ,marginBottom:"5%", }}
+        style={{width:"100%", margin: "auto" ,marginBottom:"5%",border:"1px solid green" }}
         username="vaibhavfirke"
-        transformData={selectLastHalfYear}
-        blockSize={20}
+        transformData={"12/12/2023"}
+        blockSize={16}
         fontSize={16}
+        // hideColorLegend
+  // hideTotalCount
       >
          <ReactTooltip delayShow={18} html /> 
       </GitHubCalendar>

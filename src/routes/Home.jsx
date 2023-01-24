@@ -1,8 +1,7 @@
 import React from "react";
 import Navbar from "../Conponents/Navbar";
-// import HeroImg from "../Conponents/HeroImg";
-import "../Conponents/home.style.css";
-import Temp from "../Conponents/temp";
+import "../Conponents/home.style.css"
+import Intro from "../Conponents/Intro";
 import { Box } from "@chakra-ui/react";
 import AboutContent from "../Conponents/AboutContent";
 import SkillsContent from "../Conponents/skillscontent";
@@ -15,21 +14,12 @@ const Home = () => {
       <Navbar />
       
       <Box position="relative" height="auto" width="100%" border="1px slid green">
-      <Temp />
+      <Intro/>
       </Box>
         <AboutContent />
         <SkillsContent />
        <ProjectContent/>
-      {/* 
-      <Box position="relative" height="auto" width="100%" border="1px slid red" >
-      </Box>
-      <Box position="relative" height="auto" width="100%" border="1px slid blue" >
-      </Box>
-      <Box position="relative" height="auto" width="100%" border="1px slid pink" >
-      </Box>
-      <Box position="relative" height="auto" width="100%" border="1px slid green">
-    </Box> */}
-    <Git />
+      <Git />
        <Contacts/>
     </Box>
   );

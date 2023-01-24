@@ -37,3 +37,7 @@ color:#fff;
   color: #fff;
   transition: 0.5s;
 }
+
+html{
+  scroll-behavior: smooth;
+}
