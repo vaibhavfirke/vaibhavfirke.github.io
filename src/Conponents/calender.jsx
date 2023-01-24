@@ -23,15 +23,12 @@ const Calender = () => {
    
 
   return (
-    <Box width="100%" border={"1px solid red"}>
+    <Box width="100%"  fontSize={{ base: "10px", md: "12px", lg: "16px" }} >
       <GitHubCalendar
-        style={{width:"100%", margin: "auto" ,marginBottom:"5%",border:"1px solid green" }}
+        style={{width:"100%", margin: "auto" ,marginBottom:"5%" }}
         username="vaibhavfirke"
         transformData={"12/12/2023"}
         blockSize={16}
-        fontSize={16}
-        // hideColorLegend
-  // hideTotalCount
       >
          <ReactTooltip delayShow={18} html /> 
       </GitHubCalendar>

@@ -15,17 +15,18 @@ import { useState } from "react";
 import { Box, Heading, Image, Text, Button } from "@chakra-ui/react";
 
 const projects = [
+ 
   {
     id: 1,
-    image: Gearbest,
-    projectName: "GearBest Clone",
+    image: "https://i.postimg.cc/kg9wZRNV/Screenshot-74.png",
+    projectName: "Digimart",
     description:
-      "GearBest is a E-commerce shoping web site where you can Buy any kind of prodict. It is a collabrativ project that done by Five Team membber withen a five daya's.",
+      "Digimart is basically an e-commerce website where users can buy products such as mobiles, laptops, cameras, telivisions and all other tech products. They sell their product both on shops as well as on website. This was a Group project built by our team member in 5 days.",
     features:
       "User can login, signup, cart, product pages, and buy the products ",
-    tech: [Javascrpet, Html, Css],
-    sorce: "https://github.com/vaibhavfirke/-curly-hobbies-5555",
-    live: "https://lucky-basbousa-cb58e5.netlify.app/index.html",
+    tech: [Javascrpet, Html, Css,Reactimg,Chakraui],
+    sorce: "https://github.com/Santoshdandin/noxious-insurance-3324",
+    live: "https://frontend-ankur9900.vercel.app/",
   },
   {
     id: 2,
@@ -63,6 +64,30 @@ const projects = [
       "https://github.com/282Manoj/Meanbuy.com2",
     live: "https://taupe-malabi-f40655.netlify.app/nav+home.html",
   },
+  {
+    id: 5,
+    image: Gearbest,
+    projectName: "GearBest Clone",
+    description:
+      "GearBest is a E-commerce shoping web site where you can Buy any kind of prodict. It is a collabrativ project that done by Five Team membber withen a five daya's.",
+    features:
+      "User can login, signup, cart, product pages, and buy the products ",
+    tech: [Javascrpet, Html, Css],
+    sorce: "https://github.com/vaibhavfirke/-curly-hobbies-5555",
+    live: "https://lucky-basbousa-cb58e5.netlify.app/index.html",
+  },
+  {
+    id: 6,
+    image: "https://user-images.githubusercontent.com/101381281/204876988-7f3ce8d3-ac0a-469a-ac4b-c30838f461aa.png",
+    projectName: "MailChamp Clone",
+    description:
+      "Clone of E-marketing website MailChimp which gives platform to the users to create thier own store. MailChimp also provide some mail and website templates to create good and professional mails. It is a collaborative project which is done with the help of 5 members in a wee",
+    features:
+      "User can login, signup, cart, product pages, and buy the products ",
+    tech: [Javascrpet, Html, Css,Chakraui,Reactimg],
+    sorce: "https://github.com/monumarquis/MailChimp-Store",
+    live: "https://mailchimp-clone-deploy.netlify.app/",
+  },
 ];
 function ProjectContent({ content }) {
   const [project] = useState(projects);
@@ -86,7 +111,7 @@ function ProjectContent({ content }) {
                   src={el.image}
                   alt="project image"
                   margin="auto"
-                  border="1px solid yellow"
+                  borderRadius={10}
                   width="100%"
                   objectFit="contain"
                 ></Image>
