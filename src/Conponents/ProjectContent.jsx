@@ -1,6 +1,7 @@
 import "./ProjectContentstyle.css";
 
 import Reactimg from "../Assets/react.png";
+import Bigbasket from "../Assets/BigBasket.png";
 import Javascrpet from "../Assets/javascript.png";
 import Html from "../Assets/html.png";
 import Bootstrap from "../Assets/bootstrap.png";
@@ -66,15 +67,15 @@ const projects = [
   },
   {
     id: 5,
-    image: Gearbest,
-    projectName: "GearBest Clone",
+    image: Bigbasket,
+    projectName: "BigBasket Clone",
     description:
-      "GearBest is a E-commerce shoping web site where you can Buy any kind of prodict. It is a collabrativ project that done by Five Team membber withen a five daya's.",
+      "It is a Grocery website where you can buy day to day grocery for your Household. It is fully functional and responsive website.",
     features:
-      "User can login, signup, cart, product pages, and buy the products ",
-    tech: [Javascrpet, Html, Css],
-    sorce: "https://github.com/vaibhavfirke/-curly-hobbies-5555",
-    live: "https://lucky-basbousa-cb58e5.netlify.app/index.html",
+      "User can login, signup, cart, product pages, home page, Authentication,filter and sort products by price and rating,sigle product page ",
+    tech: [Javascrpet, Html, Css,Chakraui,Reactimg],
+    sorce: "https://github.com/Nikhil-81/big_basket",
+    live: "https://vaibhav-firke-makes-great-sites-e8301.netlify.app/",
   },
   {
     id: 6,
