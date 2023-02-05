@@ -2,10 +2,8 @@ import "./Navbarstyle.css";
 import React from "react";
 import { Link} from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Button, Heading } from "@chakra-ui/react";
-
-
-// import { Box, Heading, ListItem, UnorderedList } from "@chakra-ui/react";
+import { Heading } from "@chakra-ui/react";
+import Cv from "../Assets/fw19_0245_Vaibhav_Firke_Resume.pdf"
 
 const Navbar = () => {
   const [click, setClick] = React.useState(false);
@@ -55,11 +53,11 @@ const Navbar = () => {
         </li>
         <li>
           {" "}
-          <Link activeclassName="active" onClick={handleClick} to="contact" spy={true} smooth={true} offset={-50} duration={50}>Contact</Link>
+          <Link activeclassName="active" onClick={handleClick} to="contact" spy={true} smooth={true} offset={-100} duration={50}>Contact</Link>
         </li>
         <li>
           {" "}
-          <a href="https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link" target="_blank">
+          <a href={Cv} download onClick={()=>window.open("https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link","_blank")}>
             Resume
           </a>
           

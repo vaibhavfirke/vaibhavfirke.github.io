@@ -7,7 +7,7 @@ import Linkdin from "../Assets/linkdin.png";
 import Hackrank from "../Assets/hackrank.png";
 import Location from "../Assets/location.png";
 import Resume from "../Assets/resume.png";
-import Cv from "../Assets/Vaibhav_Firke_Resume.pdf"
+import Cv from "../Assets/fw19_0245_Vaibhav_Firke_Resume.pdf"
 import { FiDownload } from "react-icons/fi";
 
 function Contacts() {
@@ -93,8 +93,7 @@ function Contacts() {
                 alt="Resume"
               />
             </Box>
-            <a href="https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link" target="_blank">
-              {" "}
+            <a href={Cv} download onClick={()=>window.open("https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link","_blank")}>
               <Button bg="yellow" color="black">
                 Resume
               </Button>

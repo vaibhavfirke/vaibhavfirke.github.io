@@ -1,8 +1,9 @@
 import "./Intro.style.css";
-import Cv from "../Assets/Vaibhav_Firke_Resume.pdf"
+import Cv from "../Assets/fw19_0245_Vaibhav_Firke_Resume.pdf"
 import { Box, Heading, Button, Text } from "@chakra-ui/react";
 import { FiDownload } from "react-icons/fi";
 function Intro() {
+ 
   return (
     <Box className="home" id="hero">
       <Box className="mask">
@@ -13,11 +14,12 @@ function Intro() {
           >
             Hey 👋...
           </Heading>
+         
           <Heading
             fontSize={{ base: "14px", md: "18px", lg: "30px" }}
             mb="20px"
           >
-            I'm Vaibhav
+            I'm Vaibhav Firke
           </Heading>
         </Box>
         <Heading fontSize={{ base: "14px", md: "18px", lg: "30px" }} mb="20px">
@@ -37,9 +39,7 @@ function Intro() {
         </Text>
 
         <a
-          href="https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link"
-          target="_blank"
-          rel="rel"
+        href={Cv} download onClick={()=>window.open("https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link","_blank")}
         >
           <Button bg="yellow" color="black">
             Resume
