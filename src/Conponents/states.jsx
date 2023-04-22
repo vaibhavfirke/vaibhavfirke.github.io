@@ -1,6 +1,6 @@
 import {  Box } from "@chakra-ui/react";
 import React from "react";
-import "./states.style.css";
+import "../css/states.style.css";
 const Stats = () => {
   return (
     // streak

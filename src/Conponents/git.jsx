@@ -1,4 +1,4 @@
-import "./git.style.css";
+import "../css/git.style.css";
 import { Box, Heading } from "@chakra-ui/react";
 import Calender from "./calender";
 import Stats from "./states";

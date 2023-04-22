@@ -1,0 +1,14 @@
+.head {
+    width: 100%;
+    height: auto;
+  
+}
+
+.main {
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top:6%;
+    text-align: center;
+}

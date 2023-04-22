@@ -1,5 +1,5 @@
 import { Box, Heading, Image, Text } from "@chakra-ui/react";
-import "./skillsstyle.css";
+import "../css/skillsstyle.css";
 import JavaScript from "../Assets/javascript.png";
 import Html from "../Assets/html.png";
 import Css from "../Assets/css.png";
@@ -15,7 +15,7 @@ import Git from "../Assets/git.png";
 import Github from "../Assets/github.png";
 import Vscode from "../Assets/vscode.png";
 
-function SkillsContent() {
+function Skills() {
   return (
     <Box className="skill-main" id="skills">
       <Box className="skill-child">
@@ -187,4 +187,4 @@ function SkillsContent() {
     </Box>
   );
 }
-export default SkillsContent;
+export default Skills;

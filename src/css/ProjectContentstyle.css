@@ -1,0 +1,58 @@
+.project {
+    width: 100%;
+    height: auto;
+    background-color: #013045;
+   padding-bottom: 115px;
+}
+
+.content-project {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #013045;
+    top: 100px;
+    color: white;
+}
+.flexcontent{
+    width: 95%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    grid-template-rows: auto;
+    padding: 10px;
+    margin: auto;
+}
+@media screen and (max-width:900px){
+    .flexcontent{
+        width: 95%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        grid-template-rows: auto;
+        padding: 10px;
+        margin: auto;
+    }
+   
+}
+
+.main-content {
+  
+    /* width: 45%; */
+    height: auto;
+   
+    background-color: rgb(58, 56, 56);
+ 
+    border-radius: 10px;
+
+    
+}
+.gitcode{
+    border: none;
+    background-color: yellow;
+    color: black;
+
+}
+
+

@@ -1,4 +1,4 @@
-import "./ProjectContentstyle.css";
+import "../css/ProjectContentstyle.css";
 
 import Reactimg from "../Assets/react.png";
 import Bigbasket from "../Assets/BigBasket.png";
@@ -6,7 +6,6 @@ import Javascrpet from "../Assets/javascript.png";
 import Html from "../Assets/html.png";
 import Bootstrap from "../Assets/bootstrap.png";
 import Css from "../Assets/css.png";
-import Gearbest from "../Assets/gearbest.png";
 import Niftypm from "../Assets/niftypm.png";
 import Chakraui from "../Assets/chakra.jpg";
 import Materialui from "../Assets/material.png";
@@ -90,10 +89,10 @@ const projects = [
     live: "https://mailchimp-clone-deploy.netlify.app/",
   },
 ];
-function ProjectContent({ content }) {
+function Projects({ content }) {
   const [project] = useState(projects);
   return (
-    <Box className="project" >
+    <Box className="project" id="projects" >
       <Box className="content-project">
         <Heading
           textAlign="center"
@@ -211,4 +210,4 @@ function ProjectContent({ content }) {
     </Box>
   );
 }
-export default ProjectContent;
+export default Projects;

@@ -1,4 +1,4 @@
-import "./Navbarstyle.css";
+import "../css/Navbarstyle.css";
 import React from "react";
 import { Link} from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -22,8 +22,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className={color ? "header header-bg" : "header"}>
-      <Link to="hero" spy={true} smooth={true} offset={50} duration={500}>
+    <div className={color ? "header header-bg" : "header"}  id="nav-menu">
+      <Link to="hero" spy={true} smooth={true} offset={-100} duration={50}>
         <Heading
           bgGradient="linear(to-l, #7928CA, #FF0080)"
           bgClip="text"
@@ -33,25 +33,25 @@ const Navbar = () => {
         >
           Vaibhav
         </Heading>
-      </Link>
+      </Link> 
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li>
-          <Link activeclassName="active" onClick={handleClick} to="hero" spy={true} smooth={true} offset={-100} duration={50}>Home</Link>
+        <li >
+          <Link activeclassName="active" onClick={handleClick} to="hero" spy={true} smooth={true} offset={-200} duration={50}>Home</Link>
         </li>
-        <li>
+        <li >
           {" "}
-          <Link activeclassName="active" onClick={handleClick} to="aboutme" spy={true} smooth={true} offset={-74} duration={50}>AboutMe</Link>
+          <Link activeclassName="active" onClick={handleClick} to="about" spy={true} smooth={true} offset={-74} duration={50}>AboutMe</Link>
         </li>
-        <li>
+        <li class="nav-link skills">
           {" "}
           <Link onClick={handleClick} to="skills" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link>
         </li>
-        <li>
+        <li >
           {" "}
-          <Link activeclassName="active" onClick={handleClick} to="project" spy={true} smooth={true} offset={-15} duration={50}>Project</Link>
+          <Link activeclassName="active" onClick={handleClick} to="projects" spy={true} smooth={true} offset={-15} duration={50}>Project</Link>
         </li>
-        <li>
+        <li >
           {" "}
           <Link activeclassName="active" onClick={handleClick} to="contact" spy={true} smooth={true} offset={-100} duration={50}>Contact</Link>
         </li>
