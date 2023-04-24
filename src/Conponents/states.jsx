@@ -8,6 +8,7 @@ const Stats = () => {
       <Box style={{ width: "100%", height:"auto", margin: "auto"}}>
         <a href="https://github.com/vaibhavfirke" target="-blank">
           <img
+           id="github-streak-stats"
             align="left"
             src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhavfirke"
             alt="calender"
@@ -30,14 +31,17 @@ const Stats = () => {
         
         <a href="https://github.com/vaibhavfirke" target="-blank">
           <img
+           id="github-top-langs"
             align="center"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavfirke" //launguages
             alt="git"
             
           />
         </a>
+        
         <a href="https://github.com/vaibhavfirke" target="-blank">
           <img
+           id="github-stats-card"
             align="left"
             src="https://github-readme-stats.vercel.app/api?username=vaibhavfirke&count_private=true&show_icons=true" //stats
             alt="git"

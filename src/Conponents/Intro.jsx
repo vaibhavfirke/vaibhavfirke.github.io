@@ -15,17 +15,17 @@ function Intro() {
             Hey 👋...
           </Heading>
          
-          <Heading
+          <Heading id="user-detail-name"
             fontSize={{ base: "14px", md: "18px", lg: "30px" }}
             mb="20px"
           >
             I'm Vaibhav Firke
           </Heading>
         </Box>
-        <Heading fontSize={{ base: "14px", md: "18px", lg: "30px" }} mb="20px">
+        <Heading  fontSize={{ base: "14px", md: "18px", lg: "30px" }} mb="20px">
           Full Stack Web Developer
         </Heading>
-        <Text
+        <Text  id="user-detail-intro" 
           fontSize={{ base: "14px", md: "15px", lg: "17px" }}
           mb="20px"
           
@@ -39,6 +39,7 @@ function Intro() {
         </Text>
 
         <a
+        id="resume-link-1"
         href={Cv} download onClick={()=>window.open("https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link","_blank")}
         >
           <Button bg="yellow" color="black">

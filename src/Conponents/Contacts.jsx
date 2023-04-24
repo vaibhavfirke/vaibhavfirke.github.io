@@ -39,7 +39,7 @@ function Contact() {
               src={Email}
               alt="Email"
             />
-            <Text
+            <Text id="contact-email"
               fontSize={{ base: "14px", md: "16px", lg: "20px" }}
               textAlign="center"
             >
@@ -56,7 +56,7 @@ function Contact() {
               src={Call}
               alt="Email"
             />
-            <Text
+            <Text id="contact-phone"
               fontSize={{ base: "14px", md: "16px", lg: "20px" }}
               textAlign="center"
             >
@@ -113,7 +113,7 @@ function Contact() {
           </Box>
 
           <Box display="flex" gap="20px" justifyContent="center">
-            <a href="https://github.com/vaibhavfirke" target="_blank">
+            <a id="contact-github" href="https://github.com/vaibhavfirke" target="_blank">
               <img
                 width="40px"
                 height="40px"
@@ -123,7 +123,7 @@ function Contact() {
                 alt="github"
               />
             </a>
-            <a
+            <a id="contact-linkedin"
               href="https://www.linkedin.com/in/vaibhav-firke/"
               target="_blank"
             >

@@ -38,7 +38,7 @@
 
 }
 
-.front-end {
+.skills-card {
     display: grid;
     margin-top: 35px;
     grid-template-columns: repeat(3, 1fr);

@@ -25,6 +25,7 @@ const Calender = () => {
   return (
     <Box width="100%"  fontSize={{ base: "10px", md: "12px", lg: "16px" }} >
       <GitHubCalendar
+      className="react-activity-calendar"
         style={{width:"100%", margin: "auto" ,marginBottom:"5%" }}
         username="vaibhavfirke"
         transformData={"12/12/2023"}

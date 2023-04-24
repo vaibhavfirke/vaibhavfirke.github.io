@@ -13,7 +13,8 @@ function About() {
         >
           About Me
         </Heading>
-        <Image
+        <Image 
+        className="home-img"
           margin="auto"
           border="2px solid white"
           width={{ base: "110px", md: "160px", lg: "200px" }}

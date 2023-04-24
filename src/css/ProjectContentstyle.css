@@ -37,7 +37,7 @@
    
 }
 
-.main-content {
+.project-card {
   
     /* width: 45%; */
     height: auto;
@@ -48,7 +48,7 @@
 
     
 }
-.gitcode{
+.project-deployed-link{
     border: none;
     background-color: yellow;
     color: black;

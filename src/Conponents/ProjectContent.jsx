@@ -106,8 +106,9 @@ function Projects({ content }) {
         <Box className="flexcontent">
         {project?.map((el,i) => {
           return (
-              <Box className="main-content" key={i}>
+              <Box className="project-card"   key={i}>
                 <Image
+                className="project-image"
                   src={el.image}
                   alt="project image"
                   margin="auto"
@@ -115,14 +116,15 @@ function Projects({ content }) {
                   width="100%"
                   objectFit="contain"
                 ></Image>
-                <Heading
+                <Heading className="project-title"
                   textAlign="center"
                   mt="15px"
                   fontSize={{ base: "16px", md: "18px", lg: "22px" }}
                 >
                   {el.projectName}
                 </Heading>
-                <Text
+                <Text 
+                className="project-description"
                   width="90%"
                   textAlign="center"
                   margin="auto"
@@ -134,6 +136,7 @@ function Projects({ content }) {
                   {el.description}
                 </Text>
                 <Heading
+                className="project-tech-stack"
                   textAlign="center"
                   margin="auto"
                   mt="15px"
@@ -142,7 +145,7 @@ function Projects({ content }) {
                 >
                   Tech stack
                 </Heading>
-                <Box
+                <Box 
                   display="flex"
                   justifyContent="center"
                   gap="15px"
@@ -175,14 +178,15 @@ function Projects({ content }) {
                 >
                   <a href={el.sorce} target="-blank">
                     {" "}
-                    <Button
+                    <Button 
+                    
                       width={{ base: "65px", md: "80px", lg: "100px" }}
                       height={{ base: "30px", md: "35px", lg: "40px" }}
                       fontSize={{ base: "10px", md: "14px", lg: "16px" }}
                       bg="yellow"
                       color="black"
                       fontWeight="bold"
-                      className="gitcode"
+                      className="project-github-link"
                     >
                       Code
                     </Button>
@@ -195,7 +199,7 @@ function Projects({ content }) {
                       bg="yellow"
                       color="black"
                       fontWeight="bold"
-                      className="live"
+                      className="project-deployed-link"
                     >
                       {" "}
                       Live 

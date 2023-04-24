@@ -33,9 +33,10 @@ function Skills() {
             <Heading fontSize={{ base: "16px", md: "23px", lg: "30px" }}>
               Front-End
             </Heading>
-            <Box className="front-end">
+            <Box className="skills-card" >
               <Box>
-                <Image
+                <Image 
+                className="skills-card-img"
                   margin="auto"
                   width={{ base: "35px", md: "40px", lg: "60px" }}
                   height={{ base: "35px", md: "40px", lg: "60px" }}
@@ -43,10 +44,11 @@ function Skills() {
                   alt="html"
                 />{" "}
                 <br />
-                <Text>HTML</Text>
+                <Text className="skills-card-name">HTML</Text>
               </Box>
               <Box>
                 <Image
+                className="skills-card-img"
                   margin="auto"
                   width={{ base: "35px", md: "40px", lg: "60px" }}
                   height={{ base: "35px", md: "40px", lg: "60px" }}
@@ -54,10 +56,11 @@ function Skills() {
                   alt="css"
                 />
                 <br />
-                <Text>CSS</Text>
+                <Text className="skills-card-name">CSS</Text>
               </Box>
               <Box>
                 <Image
+                className="skills-card-img"
                   margin="auto"
                   width={{ base: "35px", md: "40px", lg: "60px" }}
                   height={{ base: "35px", md: "40px", lg: "60px" }}
@@ -65,10 +68,11 @@ function Skills() {
                   alt="javascript"
                 />
                 <br />
-                <Text>JavaScript</Text>
+                <Text className="skills-card-name">JavaScript</Text>
               </Box>
               <Box>
                 <Image
+                className="skills-card-img"
                   margin="auto"
                   width={{ base: "35px", md: "40px", lg: "60px" }}
                   height={{ base: "35px", md: "40px", lg: "60px" }}
@@ -76,10 +80,11 @@ function Skills() {
                   alt="react"
                 />
                 <br />
-                <Text>React</Text>
+                <Text className="skills-card-name">React</Text>
               </Box>
               <Box>
                 <Image
+                className="skills-card-img"
                   margin="auto"
                   width={{ base: "35px", md: "40px", lg: "60px" }}
                   height={{ base: "35px", md: "40px", lg: "60px" }}
@@ -87,10 +92,11 @@ function Skills() {
                   alt="chakra ui"
                 />
                 <br />
-                <Text>Chakra ui</Text>
+                <Text className="skills-card-name">Chakra ui</Text>
               </Box>
               <Box>
                 <Image
+                className="skills-card-img"
                   margin="auto"
                   width={{ base: "35px", md: "40px", lg: "60px" }}
                   height={{ base: "35px", md: "40px", lg: "60px" }}
@@ -98,7 +104,7 @@ function Skills() {
                   alt="Material ui"
                 />
                 <br />
-                <Text>Material ui</Text>
+                <Text className="skills-card-name">Material ui</Text>
               </Box>
             </Box>
           </Box>
@@ -106,9 +112,10 @@ function Skills() {
             <Heading fontSize={{ base: "16px", md: "23px", lg: "30px" }}>
               Back-End
             </Heading>
-            <Box className="front-end">
+            <Box className="skills-card" >
               <Box>
                 <Image
+                className="skills-card-img"
                   margin="auto"
                   width={{ base: "35px", md: "40px", lg: "60px" }}
                   height={{ base: "35px", md: "40px", lg: "60px" }}
@@ -116,10 +123,11 @@ function Skills() {
                   alt="react"
                 />
                 <br />
-                <Text>Nodejs</Text>
+                <Text className="skills-card-name">Nodejs</Text>
               </Box>
               <Box>
                 <Image
+                className="skills-card-img"
                   margin="auto"
                   width={{ base: "35px", md: "40px", lg: "60px" }}
                   height={{ base: "35px", md: "40px", lg: "60px" }}
@@ -127,10 +135,11 @@ function Skills() {
                   alt="express"
                 />
                 <br />
-                <Text>Express</Text>
+                <Text className="skills-card-name">Express</Text>
               </Box>
               <Box>
                 <Image
+                className="skills-card-img"
                   margin="auto"
                   width={{ base: "35px", md: "40px", lg: "60px" }}
                   height={{ base: "35px", md: "40px", lg: "60px" }}
@@ -138,7 +147,7 @@ function Skills() {
                   alt="Mongodb"
                 />
                 <br />
-                <Text>Mongodb</Text>
+                <Text className="skills-card-name">Mongodb</Text>
               </Box>
             </Box>
           </Box>
@@ -146,9 +155,10 @@ function Skills() {
             <Heading fontSize={{ base: "16px", md: "23px", lg: "30px" }}>
               Tools
             </Heading>
-            <Box className="front-end">
+            <Box className="skills-card">
               <Box>
                 <Image
+                className="skills-card-img"
                   margin="auto"
                   width={{ base: "35px", md: "40px", lg: "60px" }}
                   height={{ base: "35px", md: "40px", lg: "60px" }}
@@ -156,10 +166,11 @@ function Skills() {
                   alt="git"
                 />
                 <br />
-                <Text>Git</Text>
+                <Text className="skills-card-name">Git</Text>
               </Box>
               <Box>
                 <Image
+                className="skills-card-img"
                   margin="auto"
                   width={{ base: "35px", md: "40px", lg: "60px" }}
                   height={{ base: "35px", md: "40px", lg: "60px" }}
@@ -167,10 +178,11 @@ function Skills() {
                   alt="Github"
                 />
                 <br />
-                <Text>Github</Text>
+                <Text className="skills-card-name">Github</Text>
               </Box>
               <Box>
                 <Image
+                className="skills-card-img"
                   margin="auto"
                   width={{ base: "35px", md: "40px", lg: "60px" }}
                   height={{ base: "35px", md: "40px", lg: "60px" }}
@@ -178,7 +190,7 @@ function Skills() {
                   alt="Vs code"
                 />
                 <br />
-                <Text>Vs code</Text>
+                <Text className="skills-card-name">Vs code</Text>
               </Box>
             </Box>
           </Box>

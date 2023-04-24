@@ -37,27 +37,27 @@ const Navbar = () => {
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li >
-          <Link activeclassName="active" onClick={handleClick} to="hero" spy={true} smooth={true} offset={-200} duration={50}>Home</Link>
+          <Link activeclassName="active"  onClick={handleClick} to="hero" spy={true} smooth={true} offset={-200} duration={50}>Home</Link>
         </li>
         <li >
           {" "}
-          <Link activeclassName="active" onClick={handleClick} to="about" spy={true} smooth={true} offset={-74} duration={50}>AboutMe</Link>
-        </li>
-        <li class="nav-link skills">
-          {" "}
-          <Link onClick={handleClick} to="skills" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link>
-        </li>
-        <li >
-          {" "}
-          <Link activeclassName="active" onClick={handleClick} to="projects" spy={true} smooth={true} offset={-15} duration={50}>Project</Link>
-        </li>
-        <li >
-          {" "}
-          <Link activeclassName="active" onClick={handleClick} to="contact" spy={true} smooth={true} offset={-100} duration={50}>Contact</Link>
+          <Link activeclassName="active"  onClick={handleClick} to="about" spy={true} smooth={true} offset={-74} duration={50}>AboutMe</Link>
         </li>
         <li>
           {" "}
-          <a href={Cv} download onClick={()=>window.open("https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link","_blank")}>
+          <Link activeclassName="active" onClick={handleClick} to="skills" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link>
+        </li>
+        <li >
+          {" "}
+          <Link activeclassName="active"  onClick={handleClick} to="projects" spy={true} smooth={true} offset={-15} duration={50}>Project</Link>
+        </li>
+        <li>
+          {" "}
+          <Link activeclassName="active"  onClick={handleClick} to="contact" spy={true} smooth={true} offset={-100} duration={50}>Contact</Link>
+        </li>
+        <li>
+          {" "}
+          <a  id="resume-link-2" href={Cv}  download onClick={()=>window.open("https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link","_blank")}>
             Resume
           </a>
           
