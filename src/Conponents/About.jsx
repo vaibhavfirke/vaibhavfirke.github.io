@@ -5,7 +5,7 @@ import { Box, Heading, Image, Text } from "@chakra-ui/react";
 function About() {
   return (
     <Box  bg="#04293a"  id="about"  className="about section" >
-      <Box className="content-about" padding={25}>
+      <Box className="content-about" padding={25} paddingTop={"100px"}>
         <Heading
        
           fontSize={{ base: "25px", md: "35px", lg: "45px" }}

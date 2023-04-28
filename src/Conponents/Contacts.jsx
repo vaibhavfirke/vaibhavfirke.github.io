@@ -11,6 +11,12 @@ import Cv from "../Assets/fw19_0245_Vaibhav_Firke_Resume.pdf";
 import { FiDownload } from "react-icons/fi";
 
 function Contact() {
+  const Resumee=()=>{
+    window.open(
+      "https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link",
+      "_blank"
+    )
+  }
   return (
     <Box className="contact-main" id="contact">
       <Box className="contact-child">
@@ -92,14 +98,10 @@ function Contact() {
               />
             </Box>
             <a
+            id="resume-link-1"
               href={Cv}
               download
-              onClick={() =>
-                window.open(
-                  "https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link",
-                  "_blank"
-                )
-              }
+              onClick={Resumee}
             >
               <Button bg="yellow" color="black">
                 Resume

@@ -20,7 +20,12 @@ const Navbar = () => {
   const handleClick = () => {
     setClick(!click);
   };
-
+  const Resume = () => {
+    window.open(
+      "https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link",
+      "_blank"
+    );
+  };
   return (
     <div className={color ? "header header-bg" : "header"} id="nav-menu">
       <Link to="hero" spy={true} smooth={true} offset={-100} duration={50}>
@@ -36,10 +41,9 @@ const Navbar = () => {
       </Link>
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-        
-        <li >
-        
-          <Link  className="nav-link home"
+        <li>
+          {/* <Link
+            className="nav-link home"
             activeclassName="active"
             onClick={handleClick}
             to="hero"
@@ -49,12 +53,14 @@ const Navbar = () => {
             duration={50}
           >
             Home
-          </Link>
-      
+          </Link> */}
+          <a href="#hero" className="nav-link home"
+            activeclassName="active"
+            onClick={handleClick} >Home</a>
         </li>
-        <li >
-          <Link
-          className="nav-link about"
+        <li>
+          {/* <Link
+            className="nav-link about"
             activeclassName="active"
             onClick={handleClick}
             to="about"
@@ -64,12 +70,14 @@ const Navbar = () => {
             duration={50}
           >
             About
-          </Link>
-         
+          </Link> */}
+          <a href="#about"  className="nav-link about"
+            activeclassName="active"
+            onClick={handleClick}>About</a>
         </li>
         <li>
-          <Link
-           className="nav-link skills"
+          {/* <Link
+            className="nav-link skills"
             activeclassName="active"
             onClick={handleClick}
             to="skills"
@@ -79,12 +87,14 @@ const Navbar = () => {
             duration={500}
           >
             Skills
-          </Link>
-          
+          </Link> */}
+          <a href="#skills" className="nav-link skills"
+            activeclassName="active"
+            onClick={handleClick}>Skills</a>
         </li>
-        <li >
-          <Link
-className="nav-link projects"
+        <li>
+          {/* <Link
+            className="nav-link projects"
             activeclassName="active"
             onClick={handleClick}
             to="projects"
@@ -94,10 +104,14 @@ className="nav-link projects"
             duration={50}
           >
             Project
-          </Link>
+          </Link> */}
+          <a href="#projects"   className="nav-link projects"
+            activeclassName="active"
+            onClick={handleClick}>Projects</a>
         </li>
-        <li >
-          <Link className="nav-link contact"
+        <li>
+          {/* <Link
+            className="nav-link contact"
             activeclassName="active"
             onClick={handleClick}
             to="contact"
@@ -107,19 +121,19 @@ className="nav-link projects"
             duration={50}
           >
             Contact
-          </Link>
+          </Link> */}
+          <a href="#contact" className="nav-link contact"
+            activeclassName="active"
+            onClick={handleClick}>Contact</a>
         </li>
-        <li >
-          <a className="nav-link resume"
-            id="resume-button-2"
+        <li>
+          
+          <a
+            className="nav-link resume"
+            id="resume-button-1"
             href={Cv}
             download
-            onClick={() =>
-              window.open(
-                "https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link",
-                "_blank"
-              )
-            }
+            onClick={Resume}
           >
             Resume
           </a>

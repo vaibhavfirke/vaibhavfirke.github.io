@@ -1,9 +1,14 @@
 import "../css/Intro.style.css";
 import Cv from "../Assets/fw19_0245_Vaibhav_Firke_Resume.pdf"
 import { Box, Heading, Button, Text } from "@chakra-ui/react";
-import { FiDownload } from "react-icons/fi";
+// import { FiDownload } from "react-icons/fi";
 function Intro() {
- 
+ const Resume=()=>{
+  window.open(
+    "https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link",
+    "_blank"
+  )
+ }
   return (
     <Box className="home" id="hero">
       <Box className="mask">
@@ -41,15 +46,10 @@ function Intro() {
        
           <Button  bg="yellow" color="black">
           <a
-            id="resume-button-1"
+            id="resume-button-2"
             href={Cv}
             download
-            onClick={() =>
-              window.open(
-                "https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link",
-                "_blank"
-              )
-            }
+            onClick={Resume }
           >
             Resume
           </a>
