@@ -40,6 +40,15 @@
 .hamburger {
     display: none;
 }
+.nav-link.home,.nav-link.about,.nav-link.skills,.nav-link.contact,.nav-link.resume,.nav-link.projects{
+    margin: 0px;
+    height: auto;
+   
+   
+}
+.nav-link.home{
+    width: auto;
+}
 
 @media screen and (max-width:1040px) {
 

@@ -38,17 +38,23 @@ function Intro() {
           web design, and user expenses.
         </Text>
 
-        <a
-        id="resume-link-1"
-        href={Cv} download onClick={()=>window.open("https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link","_blank")}
-        >
-          <Button bg="yellow" color="black">
+       
+          <Button  bg="yellow" color="black">
+          <a
+            id="resume-button-1"
+            href={Cv}
+            download
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1MH-MBO1kywMuTFdtHArHAMQk1FPak9nO/view?usp=share_link",
+                "_blank"
+              )
+            }
+          >
             Resume
+          </a>
           </Button>
-        </a> <a href={Cv} download>
-          <Button bg="yellow"><FiDownload style={{color:"black" ,width:"100%"}}/></Button>
-          
-        </a>
+       
       
       </Box>
     </Box>

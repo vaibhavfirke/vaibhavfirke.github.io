@@ -10,7 +10,7 @@ import Contacts from "./Contacts";
 import ProjectContent from "./ProjectContent";
 const Home = () => {
   return (
-    <Box className="main-home" id="home" bg="#013045">
+    <Box  id="home" bg="#013045" >
       <Navbar />
       <Box
         position="relative"
