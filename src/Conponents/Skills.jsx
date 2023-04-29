@@ -25,7 +25,7 @@ function Skills() {
           fontWeight="bolder"
           fontSize={{ base: "25px", md: "35px", lg: "45px" }}
         >
-          Technical Skills
+          Skills
         </Heading>
 
         <Box className="techincal-skills">

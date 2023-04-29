@@ -1,15 +1,32 @@
+import { Box } from "@chakra-ui/react";
 import "./App.css";
 import Home from "./Conponents/Home";
-
-import { Route, Routes } from "react-router";
-
+import Navbar from "./Conponents/Navbar"
+import About from "./Conponents/About"
+import Skills from "./Conponents/Skills";
+import Project from "./Conponents/Project";
+import Git from "./Conponents/git";
+import Contacts from "./Conponents/Contacts"
+import Nav from "./Conponents/nav"
 function App() {
   return (
-    <div className="app">
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </div>
+    <Box  bg="#013045" >
+       {/* <Navbar/> */}
+       <Nav/>
+      <Box
+        position="relative"
+        height="auto"
+        width="100%"
+       
+      >
+      <Home />
+      </Box>
+      <About/>
+      <Skills />
+      <Project/>
+      <Git />
+      <Contacts />
+    </Box>
   );
 }
 

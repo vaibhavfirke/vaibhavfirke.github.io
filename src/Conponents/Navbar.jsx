@@ -28,7 +28,7 @@ const Navbar = () => {
   };
   return (
     <div className={color ? "header header-bg" : "header"} id="nav-menu">
-      <Link to="hero" spy={true} smooth={true} offset={-100} duration={50}>
+      <Link to="home" spy={true} smooth={true} offset={-100} duration={50}>
         <Heading
           bgGradient="linear(to-l, #7928CA, #FF0080)"
           bgClip="text"
@@ -42,27 +42,27 @@ const Navbar = () => {
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          {/* <Link
+          <Link
             className="nav-link home"
             activeclassName="active"
-            onClick={handleClick}
-            to="hero"
+            // onClick={handleClick}
+            to="home"
             spy={true}
             smooth={true}
             offset={-74}
             duration={50}
           >
             Home
-          </Link> */}
-          <a href="#hero" className="nav-link home"
+          </Link>
+          {/* <a href="#home" className="nav-link home"
             activeclassName="active"
-            onClick={handleClick} >Home</a>
+            onClick={handleClick} >Home</a> */}
         </li>
         <li>
-          {/* <Link
+          <Link
             className="nav-link about"
             activeclassName="active"
-            onClick={handleClick}
+            // onClick={handleClick}
             to="about"
             spy={true}
             smooth={true}
@@ -70,16 +70,21 @@ const Navbar = () => {
             duration={50}
           >
             About
-          </Link> */}
-          <a href="#about"  className="nav-link about"
-            activeclassName="active"
-            onClick={handleClick}>About</a>
-        </li>
-        <li>
-          {/* <Link
-            className="nav-link skills"
+          </Link>
+          {/* <a
+            className="nav-link about"
+            href="#about"
             activeclassName="active"
             onClick={handleClick}
+          >
+            About
+          </a> */}
+        </li>
+        <li>
+          <Link
+            className="nav-link skills"
+            activeclassName="active"
+            // onClick={handleClick}
             to="skills"
             spy={true}
             smooth={true}
@@ -87,16 +92,21 @@ const Navbar = () => {
             duration={500}
           >
             Skills
-          </Link> */}
-          <a href="#skills" className="nav-link skills"
-            activeclassName="active"
-            onClick={handleClick}>Skills</a>
-        </li>
-        <li>
-          {/* <Link
-            className="nav-link projects"
+          </Link>
+          {/* <a
+            href="#skills"
+            className="nav-link skills"
             activeclassName="active"
             onClick={handleClick}
+          >
+            Skills
+          </a> */}
+        </li>
+        <li>
+          <Link
+            className="nav-link projects"
+            activeclassName="active"
+            // onClick={handleClick}
             to="projects"
             spy={true}
             smooth={true}
@@ -104,16 +114,21 @@ const Navbar = () => {
             duration={50}
           >
             Project
-          </Link> */}
-          <a href="#projects"   className="nav-link projects"
-            activeclassName="active"
-            onClick={handleClick}>Projects</a>
-        </li>
-        <li>
-          {/* <Link
-            className="nav-link contact"
+          </Link>
+          {/* <a
+            href="#projects"
+            className="nav-link projects"
             activeclassName="active"
             onClick={handleClick}
+          >
+            Projects
+          </a> */}
+        </li>
+        <li>
+          <Link
+            className="nav-link contact"
+            activeclassName="active"
+            // onClick={handleClick}
             to="contact"
             spy={true}
             smooth={true}
@@ -121,13 +136,17 @@ const Navbar = () => {
             duration={50}
           >
             Contact
-          </Link> */}
-          <a href="#contact" className="nav-link contact"
+          </Link>
+          {/* <a
+            href="#contact"
+            className="nav-link contact"
             activeclassName="active"
-            onClick={handleClick}>Contact</a>
+            onClick={handleClick}
+          >
+            Contact
+          </a> */}
         </li>
         <li>
-          
           <a
             className="nav-link resume"
             id="resume-button-1"

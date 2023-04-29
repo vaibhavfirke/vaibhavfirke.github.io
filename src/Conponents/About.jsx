@@ -1,6 +1,7 @@
 import "../css/AboutContentstyle.css";
 import Profile from "../Assets/profile.jpg";
 import { Box, Heading, Image, Text } from "@chakra-ui/react";
+import ReactTooltip from "react-tooltip";
 
 function About() {
   return (
