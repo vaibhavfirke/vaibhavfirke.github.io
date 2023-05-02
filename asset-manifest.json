@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.281c9f09.css",
-    "main.js": "/static/js/main.c6aca46e.js",
+    "main.css": "/static/css/main.eb073a9b.css",
+    "main.js": "/static/js/main.7039cd8a.js",
     "static/media/BigBasket.png": "/static/media/BigBasket.05248ca174518b4a2fc6.png",
     "static/media/fw19_0245_Vaibhav_Firke_Resume.pdf": "/static/media/fw19_0245_Vaibhav_Firke_Resume.1d14ce0684e577d67af3.pdf",
     "static/media/profile.jpg": "/static/media/profile.f417828c277c0484d8c7.jpg",
@@ -20,11 +20,11 @@
     "static/media/email.png": "/static/media/email.dbf14da7fa77545ea19d.png",
     "static/media/vscode.png": "/static/media/vscode.09a6d2855e2363fca349.png",
     "index.html": "/index.html",
-    "main.281c9f09.css.map": "/static/css/main.281c9f09.css.map",
-    "main.c6aca46e.js.map": "/static/js/main.c6aca46e.js.map"
+    "main.eb073a9b.css.map": "/static/css/main.eb073a9b.css.map",
+    "main.7039cd8a.js.map": "/static/js/main.7039cd8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.281c9f09.css",
-    "static/js/main.c6aca46e.js"
+    "static/css/main.eb073a9b.css",
+    "static/js/main.7039cd8a.js"
   ]
 }
