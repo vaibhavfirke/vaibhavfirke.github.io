@@ -48,7 +48,7 @@ function Home() {
             id="resume-button-2"
             href={Cv}
             download
-            onClick={Resume }
+            onClick={Resume}
           >
             Resume
           </a>

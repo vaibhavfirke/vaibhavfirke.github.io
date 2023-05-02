@@ -98,7 +98,7 @@ function Contact() {
               />
             </Box>
             <a
-            id="resume-link-1"
+            
               href={Cv}
               download
               onClick={Resumee}
