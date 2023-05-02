@@ -21,18 +21,18 @@
 
 }
 
-.nav-menu {
+.nav-menuu {
     display: flex;
 
 }
 
-.nav-menu a {
+.nav-menuu a {
     padding: 0 1rem;
     
 
 }
 
-.nav-menu a {
+.nav-menuu a {
     font-size: 1.2rem;
     font-weight: 600;
    width: fit-content;
@@ -54,7 +54,7 @@
 
 @media screen and (max-width:1040px) {
 
-    .nav-menu {
+    .nav-menuu {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -68,16 +68,16 @@
         /* transition: 0.4s; */
     }
 
-    .nav-menu.active {
+    .nav-menuu.active {
         left: 0;
     }
 
-    .nav-menu a {
+    .nav-menuu a {
         padding: 1rem 0;
 
     }
 
-    .nav-menu  a {
+    .nav-menuu  a {
         font-size: 2rem;
     }
 

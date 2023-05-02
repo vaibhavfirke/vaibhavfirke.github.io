@@ -5,7 +5,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Heading } from "@chakra-ui/react";
 import Cv from "../Assets/fw19_0245_Vaibhav_Firke_Resume.pdf";
 
-const Nav = () => {
+const Navbar = () => {
   const [click, setClick] = React.useState(false);
   const [color, setColor] = React.useState(false);
   const changeColor = () => {
@@ -40,12 +40,12 @@ const Nav = () => {
         </Heading>
       </a>
 
-      <div className={click ? "nav-menu active" : "nav-menu"}>
+      <div className={click ? "nav-menuu active" : "nav-menuu"}>
         <a href="#home" className="nav-link home">
           Home
         </a>
 
-        <a className="nav-link about" href="#about">
+        <a href="#about" className="nav-link about">
           About
         </a>
 
@@ -63,7 +63,7 @@ const Nav = () => {
 
         <a
           className="nav-link resume"
-          id="resume-button-1"
+          id="resume-link-1"
           href={Cv}
           download
           onClick={Resume}
@@ -82,4 +82,4 @@ const Nav = () => {
     </div>
   );
 };
-export default Nav;
+export default Navbar;
