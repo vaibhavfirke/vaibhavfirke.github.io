@@ -63,13 +63,15 @@
         position: absolute;
         background-color: black;
         top: 0;
-        left: -100%;
+        /* left: -100%; */
+        opacity: 0;
         z-index: -3;
         /* transition: 0.4s; */
     }
 
     .nav-menuu.active {
         left: 0;
+        opacity: 1;
     }
 
     .nav-menuu a {
