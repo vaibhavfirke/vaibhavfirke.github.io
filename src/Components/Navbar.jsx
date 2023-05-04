@@ -45,7 +45,7 @@ const Navbar = () => {
           <Link
             className="nav-link home"
             activeclassName="active"
-            // onClick={handleClick}
+            onClick={handleClick}
             to="home"
             spy={true}
             smooth={true}
@@ -54,15 +54,13 @@ const Navbar = () => {
           >
             Home
           </Link>
-          {/* <a href="#home" className="nav-link home"
-            activeclassName="active"
-            onClick={handleClick} >Home</a> */}
+         
         </li>
         <li>
           <Link
             className="nav-link about"
             activeclassName="active"
-            // onClick={handleClick}
+            onClick={handleClick}
             to="about"
             spy={true}
             smooth={true}
@@ -71,20 +69,13 @@ const Navbar = () => {
           >
             About
           </Link>
-          {/* <a
-            className="nav-link about"
-            href="#about"
-            activeclassName="active"
-            onClick={handleClick}
-          >
-            About
-          </a> */}
+          
         </li>
         <li>
           <Link
             className="nav-link skills"
             activeclassName="active"
-            // onClick={handleClick}
+            onClick={handleClick}
             to="skills"
             spy={true}
             smooth={true}
@@ -93,20 +84,13 @@ const Navbar = () => {
           >
             Skills
           </Link>
-          {/* <a
-            href="#skills"
-            className="nav-link skills"
-            activeclassName="active"
-            onClick={handleClick}
-          >
-            Skills
-          </a> */}
+         
         </li>
         <li>
           <Link
             className="nav-link projects"
             activeclassName="active"
-            // onClick={handleClick}
+            onClick={handleClick}
             to="projects"
             spy={true}
             smooth={true}
@@ -115,20 +99,13 @@ const Navbar = () => {
           >
             Project
           </Link>
-          {/* <a
-            href="#projects"
-            className="nav-link projects"
-            activeclassName="active"
-            onClick={handleClick}
-          >
-            Projects
-          </a> */}
+         
         </li>
         <li>
           <Link
             className="nav-link contact"
             activeclassName="active"
-            // onClick={handleClick}
+            onClick={handleClick}
             to="contact"
             spy={true}
             smooth={true}
@@ -137,14 +114,7 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          {/* <a
-            href="#contact"
-            className="nav-link contact"
-            activeclassName="active"
-            onClick={handleClick}
-          >
-            Contact
-          </a> */}
+          
         </li>
         <li>
           <a

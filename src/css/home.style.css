@@ -28,6 +28,20 @@
     height: 100%;
     object-fit: contain;
 }
+#resume-button-2{
+    width: fit-content;
+}
+
+#resume-link-2{
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
 @media screen and (max-width:750px){
     #home {
         position: relative;
