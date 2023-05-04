@@ -43,9 +43,9 @@ function Home() {
         </Text>
 
        
-          <Button  bg="yellow" color="black" id="resume-button-2">
+          <Button  bg="yellow" color="black" >
           <a
-            id="resume-link-2"
+            id={"resume-link-2"||"resume-button-2"}
             href={Cv}
             download
             onClick={Resume}
