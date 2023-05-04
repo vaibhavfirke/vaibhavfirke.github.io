@@ -63,7 +63,7 @@ const Navbar = () => {
 
         <a
           className="nav-link resume"
-          id="resume-link-1"
+          id="resume-button-1"
           href={Cv}
           download
           onClick={Resume}
