@@ -26,13 +26,13 @@
 
 }
 
-.nav-menu li {
+.nav-menu li,.nav-menu button {
     padding: 0 1rem;
    
 
 }
 
-.nav-menu li a {
+.nav-menu li a,.nav-menu button a {
     font-size: 1.2rem;
     font-weight: 600;
 }
@@ -72,26 +72,27 @@
         opacity: 1;
     }
 
-    .nav-menu li {
+    .nav-menu li,.nav-menu button {
         padding: 1rem 0;
     }
 
-    .nav-menu li a {
-        font-size: 2rem;
+    .nav-menu li a,.nav-menu button a{
+        font-size: 1rem;
+        
     }
 
     .hamburger {
         display: initial;
     }
 }
-li a:hover{
+li a:hover,button a:hover{
     color: yellow;
     border-bottom: 4px solid yellow;
     padding-bottom: 10px;
     cursor: pointer;
     transition: 0.5s;
 }
-li .active{
+li .active,button .active{
     color: yellow;
     border-bottom: 4px solid yellow;
     padding-bottom: 10px;
