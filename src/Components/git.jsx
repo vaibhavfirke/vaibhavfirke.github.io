@@ -6,7 +6,7 @@ import Stats from "./states";
 function Git() {
   return (
     <Box className="head">
-      <Box className="main">
+      <Box className="main" color={"white"}> 
         <Heading
           mb="2%"
           color="white"
@@ -15,7 +15,7 @@ function Git() {
         >
           Days|Code
         </Heading>
-        <Box width="100%">
+        <Box width="100%" >
           <Calender />
           <Stats width="100%"/>
         </Box>

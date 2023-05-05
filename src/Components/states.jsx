@@ -4,11 +4,11 @@ import "../css/states.style.css";
 const Stats = () => {
   return (
     // streak
-    <Box className="statesImg" width="100%" height="100%" margin="auto" >
-      <Box style={{ width: "100%", height:"auto", margin: "auto"}}>
+    <Box className="statesImg" width="100%" height="100%" margin="auto"  >
+      <Box style={{ width: "100%", height:"auto", margin: "auto"}} >
         <a href="https://github.com/vaibhavfirke" target="-blank">
           <img
-           id="github-streak-stats"
+            id="github-streak-stats"
             align="left"
             src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhavfirke"
             alt="calender"
