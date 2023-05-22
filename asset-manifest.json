@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.afbff4b4.css",
+    "main.css": "/static/css/main.3cb7912d.css",
     "main.js": "/static/js/main.b591ee4b.js",
     "static/media/BigBasket.png": "/static/media/BigBasket.05248ca174518b4a2fc6.png",
     "static/media/fw19_0245_Vaibhav_Firke_Resume.pdf": "/static/media/fw19_0245_Vaibhav_Firke_Resume.1d14ce0684e577d67af3.pdf",
@@ -20,11 +20,11 @@
     "static/media/email.png": "/static/media/email.dbf14da7fa77545ea19d.png",
     "static/media/vscode.png": "/static/media/vscode.09a6d2855e2363fca349.png",
     "index.html": "/index.html",
-    "main.afbff4b4.css.map": "/static/css/main.afbff4b4.css.map",
+    "main.3cb7912d.css.map": "/static/css/main.3cb7912d.css.map",
     "main.b591ee4b.js.map": "/static/js/main.b591ee4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.afbff4b4.css",
+    "static/css/main.3cb7912d.css",
     "static/js/main.b591ee4b.js"
   ]
 }
