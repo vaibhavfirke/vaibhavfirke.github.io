@@ -61,23 +61,23 @@
         position: absolute;
         background-color: black;
         top: 0;
-        /* left: -100%; */
-        opacity: 0;
+        left: -100%;
+        /* opacity: 0; */
         z-index: -3;
         transition: 0.4s;
     }
 
     .nav-menu.active {
         left: 0;
-        opacity: 1;
+        /* opacity: 1; */
     }
 
     .nav-menu li,.nav-menu button {
-        padding: 1rem 0;
+        padding: 1.5rem 0;
     }
 
     .nav-menu li a,.nav-menu button a{
-        font-size: 1rem;
+        font-size: 1.5rem;
         
     }
 
